@@ -31,30 +31,19 @@
     vertical-align: middle;
 } */
 
-.circle-image img:hover {
+.circle-image-blur > img {
     filter: blur(3px);
 }
 
 .inner-text-img {
-    display: none;
     top: 50%;
     left: 50%;
     position: absolute;
     z-index: 10;
     transform: translate(-50%, -50%);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #FFF;
-}
-
-.inner-text-img:hover {
-    top: 50%;
-    left: 50%;
-    /* display: block; */
-    position: absolute;
-    z-index: 10;
-    transform: translate(-50%, -50%);
-    font-size: 1.2rem;
-    color: #FFF;
+    font-weight: 500;
 }
 
 .text-home {

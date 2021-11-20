@@ -1,14 +1,13 @@
 .row_card_flip {
-    display: inline-block;
     margin: 0 3.5rem;
+    margin-bottom: 1rem;
 }
 
 .card-content-img {
     width: 300px;
     height: 300px;
-    display: inline-block;
+    display: block;
     position: relative;
-    overflow: hidden;
     border-radius: 20px;
 }
 
@@ -19,4 +18,45 @@
 
 .card-content-img:hover {
     box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.card-content-data {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    background-color: white;
+}
+
+.card-content-data p {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-indent: 2rem;
+}
+
+.card-content-data a {
+    color: white;
+    padding: 0.4rem 1.4rem;
+    border-radius: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 00.03rem;
+    font-size: 1rem;
+}
+
+.purple-bg a {
+    background-color:blueviolet;
+}
+
+.green-bg a {
+    background-color: rgb(204, 132, 37);
+}
+
+.blue-bg a {
+    background-color: rgb(48, 19, 214);
 }
